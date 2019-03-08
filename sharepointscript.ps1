@@ -41,7 +41,6 @@ function getallsites {
     $sites | select Url, Template | Sort-Object Template, Url
     Read-Host -Prompt "Press Enter to exit"
 }
-
  
 
 Function Delete-SPOList
